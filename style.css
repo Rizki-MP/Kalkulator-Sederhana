@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: salmon;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+form {
+    background-color: rgb(148, 52, 105);
+    width: 400px;
+    padding: 15px 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+}
+
+.judul {
+    margin-top: 0px;
+    text-align: center;
+    font-size: 19px;
+    color: #fff;
+}
+
+input, select, button{
+    margin: 10px auto;
+    display: block;
+    width: 350px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#hasil {
+
+    background-color: #fff;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 10px;
+}
